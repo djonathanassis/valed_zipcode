@@ -1,0 +1,29 @@
+{
+  "name": "htdocs/nutrig",
+  "description": "Api validador de zipcode",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Djonathan Assis Oliveira",
+      "email": "djonathanassis@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-pdo": ">=7.3",
+    "ext-json": "*",
+    "coffeecode/router": "1.0.8"
+  }
+}
